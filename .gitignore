@@ -1,8 +1,8 @@
 filelists/CUB/CUB_200_2011/
+filelists/CUB/*.json
 *.tgz
 *.zip
 *.pyc
 *.tar
 nohup*.out
-filelists/CUB/*.json
 configs.py
