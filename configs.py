@@ -1,4 +1,4 @@
-save_dir                    = '/home/yimin/vinc/2022NLP/CloserLookFewShot/CloserLookFewShot'
+save_dir                    = '/home/ubuntu/vinc/CloserLookFewShot'
 data_dir = {}
 data_dir['CUB']             = './filelists/CUB/' 
 data_dir['miniImagenet']    = './filelists/miniImagenet/' 
