@@ -1,0 +1,1 @@
+Time: 20220427-011625, Setting: CUB-novel-Conv4-maml_approx-aug 5shot 5way_train 5way_test, Acc: 600 Test Acc = 74.72% +- 0.71% 
