@@ -13,10 +13,10 @@
 			"justMyCode": true
 		},
 		{
-			"name": "debug train.py",
+			"name": "train",
 			"type": "python",
 			"request": "launch",
-			"program": "/home/yimin/vinc/2022NLP/CloserLookFewShot/CloserLookFewShot/train.py",
+			"program": "train.py",
 			"console": "integratedTerminal",
 			"justMyCode": true,
 			"args": [
