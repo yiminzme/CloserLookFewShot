@@ -11,7 +11,7 @@ cmd="python3 -u ./test.py --dataset CUB --model Conv4 --method maml_approx --tra
 # cmd="jupyter nbconvert --to notebook --execute run.ipynb --output run_1.ipynb"
 log_file="\"log/$curr_time test maml_approx.log\""
 
-final_cmd="{ $cmd; } &>> $log_file"
+final_cmd="{ $cmd; } > $log_file"
 echo $final_cmd
 eval $final_cmd
 

@@ -29,5 +29,22 @@
 				"--train_aug",
 			]
 		},
+		{
+			"name": "test",
+			"type": "python",
+			"request": "launch",
+			"program": "test.py",
+			"console": "integratedTerminal",
+			"justMyCode": true,
+			"args": [
+				"--dataset",
+				"CUB",
+				"--model",
+				"Conv4",
+				"--method",
+				"maml_approx",
+				"--train_aug",
+			]
+		},
 	]
 }
