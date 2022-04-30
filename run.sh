@@ -6,8 +6,8 @@ echo "Start $curr_time"
 echo kill $$
 
 # build and execute command
-# cmd="python3 -u ./train.py --dataset CUB --model Conv4 --method maml_approx --train_aug"
-cmd="python3 -u ./test.py --dataset CUB --model Conv4 --method maml_approx --train_aug"
+cmd="python3 -u ./train.py --dataset CUB --model Conv4 --method maml_approx --train_aug"
+# cmd="python3 -u ./test.py --dataset CUB --model Conv4 --method maml_approx --train_aug"
 # cmd="jupyter nbconvert --to notebook --execute run.ipynb --output run_1.ipynb"
 log_file="\"log/$curr_time test maml_approx.log\""
 
