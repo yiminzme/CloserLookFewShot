@@ -49,6 +49,8 @@ def train(base_loader, val_loader, model, optimization, start_epoch, stop_epoch,
     return model
 
 if __name__=='__main__':
+    
+    print("kill", os.getpid())
     np.random.seed(10)
     params = parse_args('train')
 

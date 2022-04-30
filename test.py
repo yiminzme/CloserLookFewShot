@@ -45,6 +45,8 @@ def feature_evaluation(cl_data_file, model, n_way = 5, n_support = 5, n_query = 
     return acc
 
 if __name__ == '__main__':
+    print("kill", os.getpid())
+    
     params = parse_args('test')
 
     acc_all = []
