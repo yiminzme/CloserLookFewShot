@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 
 # wget https://s3.amazonaws.com/fast-ai-imageclas/CUB_200_2011.tgz # outside mainland chn
-curl -L "https://d.pcs.baidu.com/file/97eceeb196236b17998738112f37df78?fid=3028367999-250528-430114362329236&dstime=1651118556&rt=sh&sign=FDtAERVJouK-DCb740ccc5511e5e8fedcff06b081203-SGj2fzzSrgJzdaPIapB15g6%2BkxQ%3D&expires=8h&chkv=1&chkbd=0&chkpc=&dp-logid=419355591126387720&dp-callid=0&shareid=1027176061&r=651325374&resvsflag=1-12-0-1-1-1&vuk=436981901&file_type=0" --output "CUB_200_2011.tgz" -A "pan.baidu.com" -b "BDUSS=0JKbVhOTmhob3ZpaH5JMDBVSWVFbHllQ2hhRk5RNUluNTdKZVBScTBqMGZXWXBpRVFBQUFBJCQAAAAAAAAAAAEAAACeGlIPNjEwMjY3NTUyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB~MYmIfzGJiU" #mainland chn
+curl -L "https://d.pcs.baidu.com/file/97eceeb196236b17998738112f37df78?fid=3028367999-250528-430114362329236&dstime=1651320089&rt=sh&sign=FDtAERVJouK-DCb740ccc5511e5e8fedcff06b081203-9mef5ttroAyRPsJADprazG9chRY%3D&expires=8h&chkv=1&chkbd=0&chkpc=&dp-logid=473454340807208787&dp-callid=0&shareid=1027176061&r=393796865&resvsflag=1-12-0-1-1-1&vuk=436981901&file_type=0" --output "CUB_200_2011.tgz" -A "pan.baidu.com" -b "BDUSS=0JKbVhOTmhob3ZpaH5JMDBVSWVFbHllQ2hhRk5RNUluNTdKZVBScTBqMGZXWXBpRVFBQUFBJCQAAAAAAAAAAAEAAACeGlIPNjEwMjY3NTUyAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAB~MYmIfzGJiU" #mainland chn https://pan.baidu.com/s/1OL3s7XmzoaYmbBocYJjYyQ
 
 tar -zxvf CUB_200_2011.tgz
 python write_CUB_filelist.py
