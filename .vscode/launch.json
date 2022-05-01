@@ -16,7 +16,7 @@
 			"name": "train",
 			"type": "python",
 			"request": "launch",
-			"program": "train.py",
+			"program": "CloserLookFewShot/train.py",
 			"console": "integratedTerminal",
 			"justMyCode": true,
 			"args": [
@@ -33,7 +33,7 @@
 			"name": "test",
 			"type": "python",
 			"request": "launch",
-			"program": "test.py",
+			"program": "CloserLookFewShot/test.py",
 			"console": "integratedTerminal",
 			"justMyCode": true,
 			"args": [
