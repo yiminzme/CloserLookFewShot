@@ -7,3 +7,4 @@ CloserLookFewShot/filelists/CUB/*.json
 nohup*.out
 configs.py
 dist/
+CloserLookFewShot.egg-info/
