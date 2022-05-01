@@ -2,7 +2,7 @@ import numpy as np
 import os
 import glob
 import argparse
-import backbone
+from . import backbone
 
 model_dict = dict(
             Conv4 = backbone.Conv4,

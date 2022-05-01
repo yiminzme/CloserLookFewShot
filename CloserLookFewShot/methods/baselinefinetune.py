@@ -1,10 +1,10 @@
-import backbone
+from .. import backbone
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
 import numpy as np
 import torch.nn.functional as F
-from methods.meta_template import MetaTemplate
+from .meta_template import MetaTemplate
 
 class BaselineFinetune(MetaTemplate):
     def __init__(self, model_func,  n_way, n_support, loss_type = "softmax"):

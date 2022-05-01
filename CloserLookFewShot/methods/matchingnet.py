@@ -1,13 +1,13 @@
 # This code is modified from https://github.com/facebookresearch/low-shot-shrink-hallucinate
 
-import backbone
+from .. import backbone
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
 import numpy as np
 import torch.nn.functional as F
-from methods.meta_template import MetaTemplate
-import utils
+from .meta_template import MetaTemplate
+from .. import utils
 import copy
 
 class MatchingNet(MetaTemplate):

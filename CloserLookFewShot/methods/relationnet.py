@@ -1,13 +1,13 @@
 # This code is modified from https://github.com/floodsung/LearningToCompare_FSL 
 
-import backbone
+from .. import backbone
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
 import numpy as np
 import torch.nn.functional as F
-from methods.meta_template import MetaTemplate
-import utils
+from .meta_template import MetaTemplate
+from .. import utils
 
 class RelationNet(MetaTemplate):
     def __init__(self, model_func,  n_way, n_support, loss_type = 'mse'):

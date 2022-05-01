@@ -1,10 +1,10 @@
-import backbone
+from .. import backbone
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
 import numpy as np
 import torch.nn.functional as F
-import utils
+from .. import utils
 from abc import abstractmethod
 
 class MetaTemplate(nn.Module):

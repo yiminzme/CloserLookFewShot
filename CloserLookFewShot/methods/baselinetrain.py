@@ -1,5 +1,5 @@
-import backbone
-import utils
+from .. import backbone
+from .. import utils
 
 import torch
 import torch.nn as nn
